@@ -1,0 +1,46 @@
+body{
+    background-color: coral;
+    color: azure;
+    
+}
+h1{
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 0 20px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.logo {
+    font-size: 25px;
+    
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;   
+    margin: 10px;
+    padding: 0;
+    gap: 10px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;   
+}
+
+.nav-links li a:hover {
+    color: #ff2222; 
+}
