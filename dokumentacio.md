@@ -3,3 +3,13 @@
 ### Miről szól?
 
     A weboldalam egy fitnesztermet mutat be. Az oldalon bemutatom a fitneszterem gépeit, azok használatát , az edzőket és az elérhetőségeket.
+
+
+
+
+
+
+
+
+### Linkek amiket használtam 
+>https://elite-fitness.hu/kategoriak 
