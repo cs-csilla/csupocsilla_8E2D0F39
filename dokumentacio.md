@@ -1,8 +1,8 @@
 # weboldal **Dokumentáció**
-## *Jó ezdés* fitneszterem 
+## *Jó ezdés* edzőterem 
 ### Miről szól?
 
-    A weboldalam egy fitnesztermet mutat be. Az oldalon bemutatom a fitneszterem gépeit, azok használatát , az edzőket és az elérhetőségeket.
+    A weboldalam egy edzőtermet mutat be. Az oldalon bemutatom a edzőterem gépeit, azok használatát , az edzőket és az elérhetőségeket.
 
 
 
