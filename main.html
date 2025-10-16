@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jó ezdés edzőterem</title>
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -13,8 +14,9 @@
             <div class="logo"><b>Jó ezdés</b> edzőterem <i class="material-icons">&#9787;</i></div>
             <ul class="nav-links">
                 <li>    <a href="#gepek">Gépek</a></li>
-                <li >   <a href="#edzok">Galéria</a></li>
-                <li>    <a href="#arak">Árlista és foglalás</a></li>
+                <li >   <a href="#galeria">Galéria</a></li>
+                <li>    <a href="#arak">Árlista</a></li>
+                <li >   <a href="#edzok">Edzőink</a></li>
                 <li>    <a href="#nyitvatart">Nyitvatartás</a></li>
             </ul>
             
@@ -31,7 +33,25 @@
     </div>
 
 
+    <h2 id="nyitvatartas" class="w3-center ">Nyitvatartás</h2>
+    <div class="keret nyitva w3-content w3-display-container">
+        <h4>Napijegy: 3000 Ft</h4>
 
+    </div>
+
+<h2 class="w3-center" id="galeria">Galéria</h2>
+
+<div class="w3-content w3-display-container keret">
+  <img class="mySlides" src="kepek/female-athlete-exercising.jpg" >
+  <img class="mySlides" src="kepek/Power-Gym.webp" >
+  <img class="mySlides" src="kepek/ferfisulyokkal.jpg" >
+  <img class="mySlides" src="kepek/freedom-gym.jpg" >
+  <img class="mySlides" src="kepek/pullfitness3-1.jpg" >
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
 
 
     <script src="script.js"></script>

@@ -1,0 +1,15 @@
+image: kocsis_kata.jpg
+Kocsis Kata
+Hétfőn és csütörtökön 10:00-18:00-ig.
+
+image: Rottenhoffer-Attila.png
+Rottenhoffer Attila
+Kedden és szerdán 13:00-20:00-ig.
+
+image: Joo-Timea.png
+Joó Tímea
+Pénteken és szombaton 8:00-16:00-ig.
+
+image: Toth-arpad.jpg
+Tóth Árpád
+Hétfőtől péntekig 10:00-19:00-ig.
