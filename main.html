@@ -13,29 +13,100 @@
         <nav class="navbar">
             <div class="logo"><b>Jó ezdés</b> edzőterem <i class="material-icons">&#9787;</i></div>
             <ul class="nav-links">
-                <li>    <a href="#gepek">Gépek</a></li>
+                <li>    <a href="gepek.html">Gépek</a></li>
                 <li >   <a href="#galeria">Galéria</a></li>
                 <li>    <a href="#arak">Árlista</a></li>
-                <li >   <a href="#edzok">Edzőink</a></li>
-                <li>    <a href="#nyitvatart">Nyitvatartás</a></li>
+                <li >   <a href="edzok.html">Edzőink</a></li>
+                <li>    <a href="#nyitvatartas">Nyitvatartás</a></li>
             </ul>
             
         </nav>
     </header>
+    
+    
     <div class="elerhetosegek">
         <ul>
             <li>Elérhetőségek:</li>
           <li>  <i class="material-icons">&#9743;</i><p id="tel"></p></li>
-           <li> <i class="material-icons">&#9993;</i><p>joedzesfitneszterem@gmail.com</p></li>
+           <li> <i class="material-icons">&#9993;</i><p>joedzesedzoterem@gmail.com</p></li>
          <li>  <i class="material-icons">&#9872;</i><p >1111.Budapest Üllői út 301.</p></li>
         </ul>
         
     </div>
+    <div id="tetejemain"></div>
+<h2>Rólunk</h4>
+    <div class="rolunk">
+        
+        <h4>Jó Edzés Edzőterem – ahol minden nap egy újabb lépés az erő felé!</h4>
+        <p>A Jó Edzés Edzőterem egy modern, barátságos és motiváló környezetet biztosít mindazok számára, akik szeretnének fejlődni, egészségesebben élni, vagy egyszerűen csak jól érezni magukat mozgás közben. Teremünk célja, hogy minden vendég megtalálja a saját útját a sportban – legyen szó izomépítésről, fogyásról, állóképesség-fejlesztésről vagy stresszlevezetésről.</p>
+        <p>A terem összesen <span id="osszgep"></span> darab professzionális edzőgéppel várja a sportolni vágyókat. A gépparkot gondosan úgy állítottuk össze, hogy minden izomcsoport edzésére legyen lehetőség:</p>
+        <ul>
+            <li><span id="kardioosszgep"></span> darab kardiógép – futópadok, ellipszis trénerek, szobakerékpárok és lépcsőzők,</li>
+            <li><span id="erositoosszgep"></span> darab erősítő gép, melyekkel biztonságosan edzheted az egész tested,</li>
+        </ul>
+        <p>A Jó Edzés Edzőterem különlegessége, hogy mindenki számára elérhető – kezdőktől a haladókig. Tapasztalt, segítőkész személyi edzőink segítenek a megfelelő edzésterv kialakításában, étrendi tanácsokban és motivációban is. Célunk, hogy mindenki magabiztosan, örömmel és biztonságban edzhessen.</p>
+        <p>A terem tágas, légkondicionált és modern öltözőkkel, zuhanyzókkal, valamint kényelmes pihenőrésszel rendelkezik. A recepción frissítő italokat, fehérjeturmixokat és egészséges snackeket is vásárolhatsz. A nyitvatartásunk rugalmas – reggeltől késő estig várunk, hogy akkor edzhess, amikor neked a legjobb.</p>
+        <p>A Jó Edzés Edzőteremben nemcsak testet, hanem kitartást és önbizalmat is építesz. Itt minden nap egy új esély arra, hogy jobb legyél, mint tegnap voltál.</p>
+        <p>Jó Edzés Edzőterem – ahol a kemény munka mindig meghozza a gyümölcsét!</p>
 
+
+    </div>
 
     <h2 id="nyitvatartas" class="w3-center ">Nyitvatartás</h2>
-    <div class="keret nyitva w3-content w3-display-container">
-        <h4>Napijegy: 3000 Ft</h4>
+    <table>
+  <tr>
+    <th>Napok</th>
+    <th>Nyitvatartás</th>
+    
+  </tr>
+  <tr>
+    <td>Hétfő</td>
+    <td>8:00-20:00</td>
+    
+  </tr>
+  <tr>
+    <td>Kedd</td>
+    <td>8:00-20:00</td>
+    
+  </tr>
+  <tr>
+    <td>Szerda</td>
+    <td>8:00-20:00</td>
+    
+  </tr>
+  <tr>
+    <td>Csütörtök</td>
+    <td>8:00-20:00</td>
+    
+  </tr>
+  <tr>
+    <td>Péntek</td>
+    <td>8:00-20:00</td>
+    
+  </tr>
+  <tr>
+    <td>Szombat</td>
+    <td>8:00-17:00</td>
+    
+  </tr>
+  <tr>
+    <td>Vasárnap</td>
+    <td>8:00-17:00</td>
+    
+  </tr>
+ 
+</table>
+
+    <h2 id="arak" class="w3-center ">Áraink</h2>
+    <div class=" nyitva w3-content w3-display-container">
+        <h4>Napijegy: 3 000 Ft</h4>
+        <h4>Kedvezményes napijegy: 1 700 Ft</h4>
+        <h4>10 alkalmas bérlet: 21 000 Ft</h4>
+        <h4>Kedvezményes 10 alkalmas bérlet: 18 000 Ft</h4>
+        <h4>Havi bérlet: 24 000 Ft</h4>
+        <h4>Kedvezményes havi bérlet: 21 000 Ft</h4>
+        <h4>Éves bérlet: 185 000 Ft</h4>
+
 
     </div>
 
@@ -49,11 +120,47 @@
   <img class="mySlides" src="kepek/pullfitness3-1.jpg" >
   
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <button class="w3-button w3-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-grey w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
 
 
     <script src="script.js"></script>
+    <script > let kardio = {
+      nev: "Kardió gépek",
+      altipusok: {
+        "Cybex V Series szobakerékpár": 2,
+        "Elite Fitness 2000 Freelander ívelt futópad": 2,
+        "Cybex R Series futópad": 3,
+        "Cybex ARC Lower Body Trainer R Series": 3
+      }
+    };
+
+    let erosito = {
+      nev: "Erősítő gépek",
+      altipusok: {
+        "Tuff Stuff Dupla Állítható csiga": 2,
+        "Tuff Stuff gyártó olimpiai fekvenyomó padja": 3,
+        "Tuff Stuff Scott-bicepsz pad": 1,
+        "Tuff Stuff Fekvő tárcsasúlyos Lábtoló/Hack guggoló gép": 3,
+        "Tuff Stuff Kombinált torony": 2,
+        "InterAtletika X-line XR103,1 - Keresztcsiga": 2,
+        "InterAtletika X-Line XR124": 4
+      }
+    };
+function osszesGep(szamolando) {
+  let osszes = 0;
+  for (let tipus in szamolando.altipusok) {
+    osszes += szamolando.altipusok[tipus];
+  }
+  return osszes;
+}
+let totalKardio = osszesGep(kardio);
+let totalErosito = osszesGep(erosito);
+let osszes = totalKardio + totalErosito;
+
+document.getElementById("osszgep").innerHTML=osszes;
+document.getElementById("erositoosszgep").innerHTML=totalErosito;
+document.getElementById("kardioosszgep").innerHTML=totalKardio;</script>
 </body>
 </html>

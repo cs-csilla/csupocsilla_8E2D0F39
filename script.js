@@ -4,6 +4,7 @@ function randomszam(x){
 function telefonszamok(){
 return `0670${randomszam(7)}`;
 }
+
 function kiirtel(){
  const elem = document.getElementById("tel");
  const telszam = telefonszamok();
@@ -32,6 +33,20 @@ function showDivs(n) {
 
 
 
+function valasztas(ivn) {
+      if (ivn) {
+        alert(telefonszamok())
+      }
+      else{
+        alert("Reméljük később meggondolod magad.")
+      }
+    }
+
+
+function kerdes() {
+      let valasz = confirm("Biztosan fel szeretnéd hívni?");
+      valasztas(valasz);
+    }
 
 
 
@@ -39,11 +54,4 @@ function showDivs(n) {
 
 
 
-
-
-
-
-
-
-
-window.onload=kiirtel;
+window.onload= kiirtel()
